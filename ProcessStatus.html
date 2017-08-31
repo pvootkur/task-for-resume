@@ -1,0 +1,47 @@
+<div ng-include="'html/header.html'"></div>
+    <div class="row">
+                  <div class=" col-sm-12  ">
+                      <ol class="breadcrumb">
+                          <li class="breadcrumb-item">Home</li>
+                          <li class="breadcrumb-item">Query</li>
+                          <li class="breadcrumb-item active">Process Status</li>
+                      </ol>
+                  </div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12">
+<div ui-grid="gridOptions" ui-grid-edit="" ui-grid-row-edit=""  ui-grid-exporter ui-grid-pagination class="myGrid"  style="height:427px;"></div>
+</div>
+</div>
+<br/><br/>
+<div class="row well" ng-init="getformload()">
+  <div class="col-sm-12 col-md-2 col-xs-12">
+  <div class="form-group">
+        <input type='text' class="form-control input-sm" ng-model ="processStatus.txtApp" ng-change="getqueryenable1()"/>
+  </div>
+  </div>
+  <div class="col-sm-12 col-md-2 col-xs-12">
+  <div class="form-group">
+        <input type='text' class="form-control input-sm" ng-model ="processStatus.txtName" ng-change="getqueryenable2()"/>
+  </div>
+  </div>
+  <div class="col-sm-12 col-md-2 col-xs-12">
+  <div class="form-group">
+        <input type='text' class="form-control input-sm" ng-model ="processStatus.txtDate" ng-change="getqueryenable3()"/>
+  </div>
+  </div>
+    <div class="col-sm-12 col-md-3 col-xs-12"></div>
+  <div class=" col-sm-12 col-md-1 col-xs-12 col-lg-1 form-group">
+      <button id="query" type="button" class="btn btn-info btn-sm pull-right" ng-click="getcmdqueryclick()">
+        Query</button>
+  </div>
+  <div class=" col-sm-12 col-md-1 col-xs-12 col-lg-1 form-group">
+      <button type="button" class="btn btn-info btn-sm pull-right" ng-click="getcmdrefreshclick()">
+        Refresh</button>
+  </div>
+  <div class=" col-sm-12 col-md-1 col-xs-12 col-lg-1 form-group">
+      <button type="button" id="closebtn" class="btn btn-info btn-sm pull-right" ng-click="redirect">
+        Close</button>
+  </div>
+</div><br/>
+<div ng-include="'html/footer.html'"></div>

@@ -1,0 +1,46 @@
+this.ModUtilities = function () {
+
+    cn
+    genvparms
+    objacm
+    objregistrymgr
+    gsuserrole
+    gsdbrole
+    strapplication
+    clsado
+    struserid
+    strpassword
+    stroracleenv
+    ioracleenv
+    intuseractionis
+    mstruserrole
+    mstroriguserrole
+    strepin
+    strorgunit
+    strpmad
+    strnb
+    strfs
+    stradmin
+    srtn
+    fmainform
+    suserid
+    squery
+    f
+    blnreport
+    strbuttondepressed
+    strcommentstext
+    strfundname
+    spigetworkarea
+    s
+    cnt
+    dl
+    lres
+    lh
+    i
+    lensval
+    condb
+    strprocedurename
+    strsql
+    strtestdate
+    rs
+};

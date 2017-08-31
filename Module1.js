@@ -1,0 +1,42 @@
+this.Module1 = function () {
+
+    cn
+    genvparms
+    objacm
+    objregistrymgr
+    gsuserrole
+    gsdbrole
+    strapplication
+    clsado
+    struserid
+    strpassword
+    stroracleenv
+    intuseractionis
+    mstruserrole
+    mstroriguserrole
+    blnfinancialservices
+    srtn
+    fmainform
+    flogin
+    suserid
+    squery
+    f
+    blnreport
+    spigetworkarea
+    s
+    cnt
+    dl
+    lres
+    lh
+    strrole
+    strrolepwd
+    strmsgparm
+    cmd
+    prmapplication
+    prmuserid
+    prmuserrole
+    prmpassword
+    prmmessage
+    strsetrolecmd
+    intreturn
+};

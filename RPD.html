@@ -1,0 +1,26 @@
+<div ng-include="'html/header.html'" ></div>
+    <div class="accountpage">
+  <div class="row">
+                  <div class=" col-sm-12  ">
+                      <ol class="breadcrumb">
+                          <li class="breadcrumb-item">Home</li>
+                          <li class="breadcrumb-item">Query</li>
+                          <li class="breadcrumb-item active">RPD</li>
+                      </ol>
+                  </div>
+              </div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12">
+<div ui-grid="gridOptions" ui-grid-edit="" ui-grid-row-edit="" ui-grid-exporter ui-grid-pagination class="myGrid"  style="height:427px;"></div>
+</div>
+</div><br/>
+<div class="row" ng-init="getformload()">
+  <div class=" col-sm-12 col-md-12 col-xs-12 col-lg-12 form-group">
+  <button type="button" id="updatebtn" class="btn btn-info btn-sm" ng-click = "getdatagridaftercolupdate()">
+        Update</button>
+      <button type="button" id="closebtn" class="btn btn-info btn-sm pull-right">
+        Close</button>
+  </div>
+</div>
+</div><br/>
+<div ng-include="'html/footer.html'"></div>

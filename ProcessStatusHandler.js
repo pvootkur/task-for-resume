@@ -1,0 +1,72 @@
+
+app.service('ProcessStatusHandler',function(ajaxService){
+var constants = {
+         'PORT':'8080',
+          'URL':'localhost',
+         'PROTOCOL': 'http'
+         };
+
+   this.cmdqueryclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cmdqueryclick",successFunction,errorFunction);
+}
+   this.cmdrefreshclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cmdrefreshclick",successFunction,errorFunction);
+}
+   this.flexgriddragdrop=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//flexgriddragdrop",successFunction,errorFunction);
+}
+   this.flexgridmousedown=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//flexgridmousedown",successFunction,errorFunction);
+}
+   this.flexgridmousemove=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//flexgridmousemove",successFunction,errorFunction);
+}
+   this.flexgridmouseup=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//flexgridmouseup",successFunction,errorFunction);
+}
+   this.flexgriddblclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//flexgriddblclick",successFunction,errorFunction);
+}
+   this.docolumnsort=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//docolumnsort",successFunction,errorFunction);
+}
+   this.flexgridrowcolchange=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//flexgridrowcolchange",successFunction,errorFunction);
+}
+   this.formactivate=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//formactivate",successFunction,errorFunction);
+}
+   this.formload=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//formload",successFunction,errorFunction);
+}
+   this.formatflexgrid=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//formatflexgrid",successFunction,errorFunction);
+}
+   this.mshflexgriddblclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mshflexgriddblclick",successFunction,errorFunction);
+}
+   this.columnsort=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//columnsort",successFunction,errorFunction);
+}
+   this.formresize=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//formresize",successFunction,errorFunction);
+}
+   this.cmdcloseclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cmdcloseclick",successFunction,errorFunction);
+}
+   this.formunload=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//formunload",successFunction,errorFunction);
+}
+   this.txtappkeypress=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//txtappkeypress",successFunction,errorFunction);
+}
+   this.txtapplostfocus=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//txtapplostfocus",successFunction,errorFunction);
+}
+   this.txtdatekeypress=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//txtdatekeypress",successFunction,errorFunction);
+}
+   this.txtnamekeypress=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//txtnamekeypress",successFunction,errorFunction);
+}
+});

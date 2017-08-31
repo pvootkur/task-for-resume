@@ -1,0 +1,80 @@
+<div ng-include="'html/header.html'"></div>
+    <div class="Pdmretro">
+  <div class="row">
+                  <div class=" col-sm-12  ">
+                      <ol class="breadcrumb">
+                          <li class="breadcrumb-item">Home</li>
+                          <li class="breadcrumb-item">Maintenance</li>
+                          <li class="breadcrumb-item active">PDM Retro Transaction</li>
+                      </ol>
+                  </div>
+              </div><br/></br/>
+  <div class="col-sm-12 col-md-12 col-xs-12">
+  <fieldset>
+    <legend><b>Instructions</b></legend>
+    <b style="font-size:13px">Enter PDM Confirmed Transaction below to indicate a retro Transaction in OMNI</b>
+  </fieldset>
+</div>
+  <div class="col-sm-12 col-md-12 col-xs-12 trans-fieldset">
+  <fieldset>
+    <legend><b>Transaction Info</b></legend>
+    <div class="row">
+      <div class="col-sm-3 col-md-3 col-xs-12">
+      <label  class="pull-right" for="confirmation"  style="font-size:14px">  Confirmation Code</label>
+      </div>
+      <div class="col-sm-5 col-md-5 col-xs-12">
+      <div class="form-group">
+            <input type='text' class="form-control input-sm"/>
+      </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3 col-md-3 col-xs-12">
+      <label  class="pull-right" for="confirmation"  style="font-size:14px">Plan ID</label>
+      </div>
+      <div class="col-sm-5 col-md-5 col-xs-12">
+      <div class="form-group">
+            <input type='text' class="form-control input-sm"/>
+      </div>
+      </div>
+      <div class="col-sm-4 col-md-3 col-xs-12">
+               <select class="form-control input-sm">
+                   <option>1StPlan iD</option>
+                   <option>2</option>
+                   <option>3</option>
+                   <option>4</option>
+               </select>
+     </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3 col-md-3 col-xs-12">
+      <label  class="pull-right" for="confirmation"  style="font-size:14px">Trade Date</label>
+      </div>
+      <div class="col-sm-5 col-md-5 col-xs-12">
+        <div class="form-group">
+            <div class='input-group pull-left'>
+                <input type='text' class="form-control input-sm" id='tradedate' />
+                  <span class="input-group-addon input-sm" id="tradedate-icon"><span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+            </div>
+          </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-12">
+      dd-mm-yy
+     </div>
+    </div>
+  </fieldset><br/><br/>
+</div>
+      <div class="col-sm-9 col-md-9 col-xs-12 ">
+      </div>
+      <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2 form-group">
+        <button type="button" class="btn btn-info btn-sm pull-right">
+          Save</button>
+      </div>
+      <div class="col-sm-1 col-md-1 col-xs-12 col-lg-1 form-group">
+        <button type="button" id="closebtn" class="btn btn-info btn-sm pull-right">
+          Close</button>
+      </div>
+</div><br/><br/>
+<div ng-include="'html/footer.html'"></div>
+<script src="js/script.js"></script>

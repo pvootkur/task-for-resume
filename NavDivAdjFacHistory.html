@@ -1,0 +1,136 @@
+<div ng-include="'html/header.html'"></div>
+    <div class="row">
+                <div class=" col-sm-12  ">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">Home</li>
+                        <li class="breadcrumb-item">Query</li>
+                        <li class="breadcrumb-item active">Nav/Dividend/Adj Factor History</li>
+                    </ol>
+                </div>
+            </div>
+<div class="row">
+ <!--  <div class="col-sm-1 col-md-1 col-xs-12 col-lg-1">
+     <label class="pull-right" for="Select"><b style="font-size:14px">Select</b></label>
+  </div> -->
+  <div class="col-sm-3 col-md-3 col-xs-12">
+    <div class="row">
+  <div class="col-sm-4 col-md-4 col-xs-12">
+         <label class="pull-right" for="From"><b style="font-size:12px">From</b></label>
+   </div>
+   <div class="col-sm-8 col-md-8 col-xs-12">
+        <div class="form-group">
+            <div class='input-group pull-left'>
+                <input type='text' class="form-control input-sm" id='Fromdate' />
+                  <span class="input-group-addon input-sm" id="Fromdate-icon"><span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+            </div>
+          </div>
+    </div>
+  </div><br/><br/>
+  <div class="row">
+<div class="col-sm-4 col-md-4 col-xs-12">
+       <label class="pull-right" for="From"><b style="font-size:12px">To</b></label>
+ </div>
+ <div class="col-sm-8 col-md-8 col-xs-12">
+      <div class="form-group">
+          <div class='input-group pull-left'>
+              <input type='text' class="form-control input-sm" id='Todate' />
+                <span class="input-group-addon input-sm" id="Todate-icon"><span class="glyphicon glyphicon-calendar"></span>
+                  </span>
+          </div>
+        </div>
+  </div>
+</div>
+</div>
+<div class="col-sm-5 col-md-5 col-xs-12">
+  <div class="row">
+<div class="col-sm-3 col-md-3 col-xs-12">
+       <label class="pull-right" for="fund"><b style="font-size:12px">Fund</b></label>
+ </div>
+ <div class="col-sm-9 col-md-9 col-xs-12 form-group">
+          <select class="form-control input-sm">
+              <option>CboFunds</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+          </select>
+</div>
+</div><br/>
+<div class="row form-group">
+  <div class=" col-sm-7 col-md-8 col-xs-12 form-group">
+    <div class="row">
+    <label class="checkbox-inline custom-checkbox">
+    <input type="checkbox" name="optradio"><small style="font-size:11px;">Dividend Lines Only</small>
+      </label>    
+       <label class="checkbox-inline custom-checkbox">
+        <input type="checkbox" name="optradio"><small style="font-size:11px;">Adjustment factor Lines Only</small>
+      </label>
+    </div>
+</div>
+<div class="col-sm-5 col-md-4 col-xs-12 form-group">
+         <select class="form-control input-sm">
+             <option>CboFunds</option>
+             <option>2</option>
+             <option>3</option>
+             <option>4</option>
+         </select>
+</div>
+</div>
+</div>
+<div class="col-sm-3 col-md-3 col-xs-12">
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-xs-12 form-group">
+    <fieldset class="custom-filedset">
+    <legend>Sort By:</legend>
+    <div class=" col-sm-12 col-md-12 col-xs-12 custom-radio">
+      <label class="radio-inline">
+      <input type="radio" name="optradio"><small style="font-size:14px;">date</small>
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="optradio"><small style="font-size:14px;">Fund</small>
+        </label>
+  </div>
+  </fieldset>
+</div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-xs-12 form-group">
+             <select class="form-control input-sm">
+                 <option>CboFunds</option>
+                 <option>2</option>
+                 <option>3</option>
+                 <option>4</option>
+             </select>
+   </div>
+  </div>
+</div>
+<div class=" col-sm-12 col-md-1 col-xs-12 col-lg-1 form-group">
+    <button type="button" class="btn btn-info btn-sm select-btn pull-right">
+      Select<br/>Fund</button>
+</div>
+</div><br/>
+<div class="row">
+  <div class=" col-sm-12 col-md-12 col-xs-12">
+      <hr/ style="margin-top:-18px;">
+</div>
+</div>
+<div class="row">
+  <div class=" col-sm-12 col-md-12 col-xs-12">
+       <textarea class="form-control" rows="5">IvwDividendRate</textarea>
+</div>
+</div><br/>
+<div class="row">
+  <div class=" col-sm-8 col-md-10 col-xs-12">
+          <label for="Notified"><b style="font-size:15px">Notified date exist</b></label>
+</div>
+<div class=" col-sm-1 col-md-1 col-xs-12 col-lg-1 form-group">
+    <button type="button" class="btn btn-info btn-sm pull-right">
+    Export</button>
+</div>
+<div class=" col-sm-2 col-md-1 col-xs-12 col-lg-1 form-group">
+    <button type="button" id="closebtn" class="btn btn-info btn-sm pull-right">
+      Close</button>
+</div>
+</div><br/>
+<div ng-include="'html/footer.html'"></div>
+<script src="js/script.js"></script>

@@ -1,0 +1,51 @@
+<div ng-include="'html/header.html'"></div>
+<div class="row">
+	<div class=" col-sm-12  ">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item">Home</li>
+			<li class="breadcrumb-item">Maintenance</li>
+			<li class="breadcrumb-item active">Product Series Rates</li>
+		</ol>
+	</div>
+</div>
+<div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-12">
+		<div ui-grid="gridOptions" ui-grid-edit="" ui-grid-row-edit=""
+			ui-grid-exporter ui-grid-pagination class="myGrid"
+			style="height: 390px;"></div>
+	</div>
+</div>
+<br />
+<br />
+<div class="row well" ng-init="getformload()">
+  <div class="col-sm-3 col-md-3 col-xs-12 col-lg-3 form-group">
+		<select ng-model="selectedName" ng-options="item for item in names">
+		</select>
+	</div>
+	<div class="col-sm-3 col-md-3 col-xs-12">
+		<div class="form-group">
+			<input type='text' class="form-control input-sm"
+				ng-model="frmProductSeries.txtName" ng-change="getqueryenable1()" />
+		</div>
+	</div>
+	<div class="col-sm-3 col-md-3 col-xs-12">
+		<div class="form-group">
+			<input type='text' class="form-control input-sm"
+				ng-model="frmProductSeries.txtIrma" ng-change="getqueryenable2()" />
+		</div>
+	</div>
+	<div class=" col-sm-1 col-md-1 col-xs-12 col-lg-1 form-group">
+		<button id="query1" type="button"
+			class="btn btn-info btn-sm pull-right" ng-click="getcmdqueryclick()">
+			Query</button>
+	</div>
+	<div class=" col-sm-1 col-md-1 col-xs-12 col-lg-1 form-group">
+		<button type="button" class="btn btn-info btn-sm pull-right"
+			ng-click="getcmdrefreshclick()">Refresh</button>
+	</div>
+	<div class=" col-sm-1 col-md-1 col-xs-12 col-lg-1 form-group">
+		<button type="button"  id="closebtn" class="btn btn-info btn-sm pull-right">Close</button>
+	</div>
+</div>
+<br />
+<div ng-include="'html/footer.html'"></div>
