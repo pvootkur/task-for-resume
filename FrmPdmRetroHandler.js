@@ -1,0 +1,51 @@
+
+app.service('FrmPdmRetroHandler',function(ajaxService){
+var constants = {
+         'PORT':'8080',
+          'URL':'localhost',
+         'PROTOCOL': 'http'
+         };
+
+   this.cboconfirmationchange=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cboconfirmationchange",successFunction,errorFunction);
+}
+   this.cboconfirmationclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cboconfirmationclick",successFunction,errorFunction);
+}
+   this.cboconfirmationkeypress=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cboconfirmationkeypress",successFunction,errorFunction);
+}
+   this.cmdcloseclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cmdcloseclick",successFunction,errorFunction);
+}
+   this.cmdsaveclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cmdsaveclick",successFunction,errorFunction);
+}
+   this.confirmdata=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//confirmdata",successFunction,errorFunction);
+}
+   this.getretrotradedate=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//getretrotradedate",successFunction,errorFunction);
+}
+   this.validate=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//validate",successFunction,errorFunction);
+}
+   this.formload=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//formload",successFunction,errorFunction);
+}
+   this.cboconfirmationvalidate=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cboconfirmationvalidate",successFunction,errorFunction);
+}
+   this.formunload=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//formunload",successFunction,errorFunction);
+}
+   this.txtplanidchange=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//txtplanidchange",successFunction,errorFunction);
+}
+   this.txttradedatechange=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//txttradedatechange",successFunction,errorFunction);
+}
+   this.txttradedatevalidate=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//txttradedatevalidate",successFunction,errorFunction);
+}
+});

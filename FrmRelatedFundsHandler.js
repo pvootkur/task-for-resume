@@ -1,0 +1,75 @@
+
+app.service('FrmRelatedFundsHandler',function(ajaxService){
+var constants = {
+         'PORT':'8080',
+          'URL':'localhost',
+         'PROTOCOL': 'http'
+         };
+
+   this.populatesfgfunds=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//populatesfgfunds",successFunction,errorFunction);
+}
+   this.populaterelatedfunds=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//populaterelatedfunds",successFunction,errorFunction);
+}
+   this.cboallfundsclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cboallfundsclick",successFunction,errorFunction);
+}
+   this.cbosfgfundsclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cbosfgfundsclick",successFunction,errorFunction);
+}
+   this.cmdaddclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cmdaddclick",successFunction,errorFunction);
+}
+   this.getthehighestpriority=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//getthehighestpriority",successFunction,errorFunction);
+}
+   this.cmdcloseclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cmdcloseclick",successFunction,errorFunction);
+}
+   this.reorderpriority=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//reorderpriority",successFunction,errorFunction);
+}
+   this.cmddeleteclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cmddeleteclick",successFunction,errorFunction);
+}
+   this.cmddownclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cmddownclick",successFunction,errorFunction);
+}
+   this.updatepriority=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//updatepriority",successFunction,errorFunction);
+}
+   this.cmdmodifyclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cmdmodifyclick",successFunction,errorFunction);
+}
+   this.cmdselfundclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cmdselfundclick",successFunction,errorFunction);
+}
+   this.cmdupclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cmdupclick",successFunction,errorFunction);
+}
+   this.formload=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//formload",successFunction,errorFunction);
+}
+   this.formunload=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//formunload",successFunction,errorFunction);
+}
+   this.lvrelfundsclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//lvrelfundsclick",successFunction,errorFunction);
+}
+   this.lvrelfundscolumnclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//lvrelfundscolumnclick",successFunction,errorFunction);
+}
+   this.selfundswithsameassetclass=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//selfundswithsameassetclass",successFunction,errorFunction);
+}
+   this.showallfunds=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//showallfunds",successFunction,errorFunction);
+}
+   this.optsameassetclassclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//optsameassetclassclick",successFunction,errorFunction);
+}
+   this.optshowallclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//optshowallclick",successFunction,errorFunction);
+}
+});

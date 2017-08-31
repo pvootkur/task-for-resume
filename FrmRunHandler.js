@@ -1,0 +1,57 @@
+
+app.service('FrmRunHandler',function(ajaxService){
+var constants = {
+         'PORT':'8080',
+          'URL':'localhost',
+         'PROTOCOL': 'http'
+         };
+
+   this.cmdcloseclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cmdcloseclick",successFunction,errorFunction);
+}
+   this.cmdsubmitclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cmdsubmitclick",successFunction,errorFunction);
+}
+   this.formload=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//formload",successFunction,errorFunction);
+}
+   this.optcalcunitvaluesclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//optcalcunitvaluesclick",successFunction,errorFunction);
+}
+   this.optconfirmnavclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//optconfirmnavclick",successFunction,errorFunction);
+}
+   this.optfinalizeunitvalueclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//optfinalizeunitvalueclick",successFunction,errorFunction);
+}
+   this.optnaveditclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//optnaveditclick",successFunction,errorFunction);
+}
+   this.optnavloadclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//optnavloadclick",successFunction,errorFunction);
+}
+   this.optrelianceeditclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//optrelianceeditclick",successFunction,errorFunction);
+}
+   this.displaydescription=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//displaydescription",successFunction,errorFunction);
+}
+   this.getmodule=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//getmodule",successFunction,errorFunction);
+}
+   this.cmd1461click=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cmd1461click",successFunction,errorFunction);
+}
+   this.cmd1451click=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cmd1451click",successFunction,errorFunction);
+}
+   this.cmd1421click=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cmd1421click",successFunction,errorFunction);
+}
+   this.cmd1411click=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cmd1411click",successFunction,errorFunction);
+}
+   this.cmd161click=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cmd161click",successFunction,errorFunction);
+}
+});
