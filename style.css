@@ -1,0 +1,208 @@
+body{
+ /*background-color:#f4f2f2;*/
+ background-color:aliceblue;
+color:white;
+}
+img {
+  margin-top: 2px;
+}
+.navbar-toggle-custom{
+   margin-top: 11px;
+}
+.navbar-brand-custom{
+   height: 45px;
+}
+.navbar-bottom-custom{
+    min-height:20px;
+    max-height:20px;
+    color:white;
+}
+.custom-nav{
+	margin-top:11px;
+}
+
+.homeimage{
+	margin-top:-2px;
+	margin-left:-45px;
+}
+.select{
+	margin-left:16px;
+}
+.account{
+margin-right:60px;
+}
+ ul li:hover ul.dropdown-menu{
+         display: block;	/* Display the dropdown */
+ }
+section{
+margin-top:49px;
+color:black;
+    /* border: solid 1px #555; */
+    background-color: white;
+    box-shadow: -1px 0px 29px rgba(0,0,0,0.3);
+    -moz-box-shadow:-1px 0px 29px rgba(0,0,0,0.3);
+    /* -webkit-box-shadow: -10px 0px 5px rgba(0,0,0,0.6); */
+    -o-box-shadow: -1px 0px 29px rgba(0,0,0,0.3);
+    /* border-left: 1px solid white; */
+    /* border-right: 1px solid; */
+    margin-top: 43px;
+}
+.nav-menu{
+margin-top:39px;
+}
+/* Start Display the gridtitle
+.gridtitle{
+  text-align: center;
+    border: 1px solid #d4d4d4;
+    margin-top: 105px;
+    background-color: white;
+    font-size: 14px;
+    padding: 8px;
+    color: #004ea8;
+    font-weight: bold;
+}
+
+  End Display the gridtitle */
+
+/*  Start Dividend page style */
+.textarea{
+  width: 1142px;
+  min-height: 75px;
+}
+
+/*  End Dividend page style */
+
+/*  Start Adj Factor Entry page style */
+
+/*  End Adj Factor Entry page style */
+/*  Start PDM Retro Trans page style */
+
+.trans-fieldset{
+  margin-top: 25px;
+}
+/*  End PDM Retro Trans page style */
+
+/*  Start Dividend Return Rate page style */
+#comment{
+  min-height:154px;
+}
+.left-dividend{
+  margin-top: 50px;
+}
+
+/*  End Dividend Return Rate page style */
+
+/*  Start Non-SFGstyle */
+.clear-btn{
+	margin-right:-66px;
+}
+/*  End Non-SFGstyle */
+
+/*  Start relatefundpage style */
+
+.no-padding-right{
+  padding-right: 0px;
+}
+/*  End relatefundpage style */
+/*  Start UVentrypage style */
+
+/*  End Dailynavpage style */
+/*  Start UVentrypage style */
+
+/*  End UVentrypage style */
+/*  Start NavDivAdjFacHistory style */
+.custom-filedset{
+  margin-top: -9px;
+}
+.custom-radio{
+  margin-top: -19px;
+}
+.select-btn{
+  width:64px;
+  height:49px;
+  font-size: 12px;
+  margin-top: 19px;
+}
+.custom-checkbox{
+  margin-left: 16px;
+}
+/*  End NavDivAdjFacHistory style */
+
+/*  Start PlanID style */
+.custom-well{
+  width:619px;
+  margin-left: 237px;
+}
+/*  End PlanID style */
+.logout{
+	text-align:center;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    #account {
+      display: none;
+    }
+  .login-page{
+	margin-top:70px;
+}
+    section{
+      margin-bottom: 15px;
+      margin-top:49px;
+      color:black;
+      min-height: 100%;
+-o-box-min-height: 100%;
+          /* border: solid 1px #555; */
+          background-color: white;
+          box-shadow: -1px 0px 29px rgba(0,0,0,0.6);
+          -moz-box-shadow: -10px 0px 5px rgba(0,0,0,0.6);
+          /* -webkit-box-shadow: -10px 0px 5px rgba(0,0,0,0.6); */
+          -o-box-shadow: -10px 0px 5px rgba(0,0,0,0.6);
+          margin-top:41px;
+    }
+    .navbar-bottom-custom{
+        min-height:20px;
+        max-height:40px;
+    }
+    .textarea{
+      width: 360px;
+      min-height: 75px;
+    }
+    .custom-well{
+      width:320px;
+      margin-left:0px;
+    }
+    .pull-right{
+      float:left !important;
+    }
+    .btn-block{
+      width: 100px;
+    }
+    .select{
+	margin-left:0px;
+}
+}
+@media (min-width: 767px) and (max-width: 1368px) {
+    #Account {
+      display: none;
+    }
+    /*  Start Login page style */
+.login-page{
+	margin-top:120px;
+}
+/*  End Login page style */
+    section{
+      height: 610px;
+      -min-height: 100%;
+      -moz-box-height: 605px;
+       -webkit-box-height: 600px;
+      -o-box-height: 606px;
+    }
+    .cust-select{
+	margin-left:-72px;
+	width:529px;
+}
+.cust-selectarea{
+	margin-left:-72px;
+	width:822px;
+}
+
+    }

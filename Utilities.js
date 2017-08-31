@@ -1,0 +1,4 @@
+this.Utilities = function () {
+
+    inti
+};

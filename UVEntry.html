@@ -1,0 +1,91 @@
+<div ng-include="'html/header.html'" ></div>
+    <div class="UVentrypage">
+  <div class="row">
+                  <div class=" col-sm-12  ">
+                      <ol class="breadcrumb">
+                          <li class="breadcrumb-item">Home</li>
+                          <li class="breadcrumb-item">Maintenance</li>
+                          <li class="breadcrumb-item active">UV Entry</li>
+                      </ol>
+                  </div>
+              </div>
+<div class="row" ng-init="getformload()">
+  <div class="col-sm-2 col-md-2 col-xs-12">
+         <label class="pull-right" for="fund"><b style="font-size:12px">Contact #</b></label>
+   </div>
+   <div class="col-sm-3 col-md-3 col-xs-12">
+            <select  id="myselect" class="form-control input-sm" ng-model = "frmUVEntry.cbocontract" ng-click="getcbocontractclick()">
+            </select>
+  </div>
+  <div class="col-sm-1 col-md-1 col-xs-12">
+         <label class="pull-right" for="fund"><b style="font-size:12px">Fund</b></label>
+   </div>
+   <div class="col-sm-3 col-md-3 col-xs-12">
+             <select  id="myselect1" class="form-control input-sm" ng-model = "frmUVEntry.cbofund" ng-click="getcbofundclick()">
+            </select>
+  </div>
+</div><br/>
+<div class="row">
+<div class="col-sm-2 col-md-2 col-xs-12">
+       <label class="pull-right" for="fund"><b style="font-size:12px">As Of Date</b></label>
+ </div>
+ <div class="col-sm-3 col-md-3 col-xs-12 form-group">
+      <div class="form-group">
+          <div class='input-group pull-left'>
+              <input type='text' class="form-control input-sm" id='asofdate' ng-model = "frmUVEntry.txttodaydate"  />
+                <span class="input-group-addon input-sm" id="asofdate-icon"><span class="glyphicon glyphicon-calendar"></span>
+                  </span>
+          </div>
+        </div>
+  </div>
+  <div class="col-sm-1 col-md-1 col-xs-12"> {{frmDailyNavMaintenance.lblcontractname}}</div>
+  <div class=" col-sm-3 col-md-3 col-xs-12 form-group">
+    <select  id="myselect2" class="form-control input-sm" ng-model = "frmUVEntry.cboplanname" >
+    </select>
+</div>
+<div class="col-sm-2 col-md-2 col-xs-12 col-lg-2 form-group">
+  <button type="button" class="btn btn-info btn-sm pull-right" ng-disabled="frmUVEntry.cmdselfund" ng-click = "getcmdselfundclick()">
+    Select Fund</button>
+</div>
+</div>
+  <div class="row">
+    <div class=" col-sm-12 col-md-12 col-xs-12">
+        <hr/>
+  </div>
+</div>
+    <div class="row">
+       <div class="col-sm-2 col-md-2 col-xs-12">
+              <label class="pull-right" for="Adjustment"  style="font-size:13px">Unit Value Override</label>
+        </div>
+       <div class="col-sm-3 col-md-3 col-xs-12">
+         <div class="form-group">
+               <input type="number" ng-disabled="frmUVEntry.txtuvoverridedisplay" class="form-control input-sm" ng-model = "frmUVEntry.txtuvoverride"/>
+         </div>
+      </div>
+      <div class="col-sm-2 col-md-2 col-xs-12">
+             <label class="pull-right" for="Adjustment"  style="font-size:13px">Please Re Enter</label>
+       </div>
+      <div class="col-sm-2 col-md-2 col-xs-12">
+        <div class="form-group">
+              <input type="number" ng-disabled="frmUVEntry.txtreenteruvoverridedisplay" class="form-control input-sm" ng-model = "frmUVEntry.txtreenteruvoverride"/>
+        </div>
+     </div>
+   </div><br/><br/>
+        <div class="row">
+           <div class="col-sm-8 col-md-8 col-xs-12 "></div>
+          <div class="col-sm-1 col-md-1 col-xs-12 col-lg-1 form-group">
+            <button type="button"  ng-disabled="frmUVEntry.cmdaddmodifydisplay" class="btn btn-info btn-sm pull-right btn-block" ng-click = "getcmdaddmodifyclick()">
+              {{frmDailyNavMaintenance.cmdaddmodify}}</button>
+          </div>
+          <div class="col-sm-1 col-md-1 col-xs-12 col-lg-1 form-group">
+            <button type="button" ng-disabled="frmUVEntry.cmddelete"  class="btn btn-info btn-sm pull-right btn-block" ng-click = "getcmddeleteclick()" >
+              Delete</button>
+          </div>
+          <div class="col-sm-1 col-md-1 col-xs-12 col-lg-1 form-group">
+            <button type="button" ng-disabled="frmUVEntry.cmdclose" id="closebtn" class="btn btn-info btn-sm pull-right btn-block" >
+              Close</button>
+          </div>
+          </div><br/>
+</div>
+<div ng-include="'html/footer.html'"></div>
+<script src="js/script.js"></script>
