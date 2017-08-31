@@ -1,0 +1,102 @@
+<div ng-include="'html/header.html'"></div>
+<div class="row">
+                  <div class=" col-sm-12  ">
+                      <ol class="breadcrumb">
+                          <li class="breadcrumb-item">Home</li>
+                          <li class="breadcrumb-item">Query</li>
+                          <li class="breadcrumb-item active">CUV Process Control</li>
+                      </ol>
+                  </div>
+              </div>
+  <fieldset>
+    <legend>Select A Process To Run</legend>
+   <div class="row">
+     <div class=" col-sm-6 col-md-6 col-xs-12">
+   <div class=" col-sm-4 col-md-1 col-xs-12"></div>
+        <div class=" col-sm-8 col-md-11 col-xs-12">
+          <label class="radio-inline">
+          <input type="radio" name="optradio"><small style="font-size: 13px;">Start NAV Loan Run</small>
+            </label>
+      </div><br/><br/>
+      <div class=" col-sm-4 col-md-1 col-xs-12"></div>
+      <div class=" col-sm-8 col-md-11 col-xs-12">
+          <label class="radio-inline">
+          <input type="radio" name="optradio"><small style="font-size: 13px;">Start NAV Edit Run</small>
+            </label>
+      </div><br/><br/>
+      <div class=" col-sm-4 col-md-2 col-xs-12"></div>
+      <div class=" col-sm-8 col-md-10 col-xs-12">
+          <label class="radio-inline">
+          <input type="radio" name="optradio"><small style="font-size: 13px;">Start NAV Edits as Good</small>
+            </label>
+      </div>
+      </div>
+      <div class=" col-sm-6 col-md-6 col-xs-12">
+       <div class="col-sm-4 col-md-4 col-xs-12">
+     <label for="fund" style="font-size:13px">Override Process Date</label>
+</div>
+<div class="col-sm-10 col-md-10 col-xs-12">
+    <div class="form-group">
+        <div class='input-group'>
+            <input type='text' class="form-control input-sm" id='applyate' />
+              <span class="input-group-addon input-sm" id="applyate-icon"><span class="glyphicon glyphicon-calendar"></span>
+                </span>
+        </div>
+      </div>
+      </div>
+      </div>
+      </div><br/>
+      <div class="row">
+      <div class=" col-sm-6 col-md-6 col-xs-12">
+      <div class=" col-sm-4 col-md-1 col-xs-12"></div>
+      <div class=" col-sm-8 col-md-11 col-xs-12">
+          <label class="radio-inline">
+          <input type="radio" name="optradio"><small style="font-size: 13px;">Start Reliance Edit Run</small>
+            </label>
+      </div><br/><br/>
+      <div class=" col-sm-4 col-md-1 col-xs-12"></div>
+      <div class=" col-sm-8 col-md-11 col-xs-12">
+          <label class="radio-inline">
+          <input type="radio" name="optradio"><small style="font-size: 13px;">Start Calculate Unit Run</small>
+            </label>
+      </div><br/><br/>
+      <div class=" col-sm-4 col-md-1 col-xs-12"></div>
+      <div class=" col-sm-8 col-md-11 col-xs-12">
+          <label class="radio-inline">
+          <input type="radio" name="optradio"><small style="font-size: 13px;">Start Finalize Unit value Run</small>
+            </label>
+      </div><br/><br/>
+      </div>
+        <div class=" col-sm-6 col-md-6 col-xs-12">
+        <div class="col-sm-10 col-md-10 col-xs-12">
+         <fieldset>
+    <legend>Calculate Unit value Process</legend>
+    </fieldset>
+    </div>
+        </div>
+      </div><br/>
+      <div class="row">
+      <div class=" col-sm-6 col-md-6 col-xs-12">
+        <div class=" col-sm-4 col-md-1 col-xs-12"></div>
+      <div class=" col-sm-6 col-md-11 col-xs-12">
+      Description Of Process
+      </div>
+        <div class=" col-sm-4 col-md-1 col-xs-12"></div>
+  <div class=" col-sm-11 col-md-11 col-xs-12">
+       <textarea class="form-control" rows="5">IvwDividendRate</textarea>
+</div>
+  </fieldset><br/><br/>
+  <div class="row">
+  <div class="col-sm-12 col-md-9 col-xs-12 col-lg-9 form-group">  
+  </div>
+  <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2 form-group">
+    <button type="button" class="btn btn-info btn-sm pull-right">
+     Submit</button>
+  </div>
+  <div class="col-sm-1 col-md-1 col-xs-12 col-lg-1 form-group">
+    <button type="button" id="closebtn" class="btn btn-info btn-sm pull-right">
+      Close</button>
+  </div>
+  </div>
+</div><br/><br/>           
+<div ng-include="'html/footer.html'"></div>              

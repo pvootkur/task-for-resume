@@ -1,0 +1,238 @@
+<div class="dividendpage" >
+  <div class="row">
+                  <div class=" col-sm-12  ">
+                      <ol class="breadcrumb">
+                          <li class="breadcrumb-item">Home</li>
+                          <li class="breadcrumb-item">Maintenance</li>
+                          <li class="breadcrumb-item active">Dividend Maintenance</li>
+                      </ol>
+                  </div>
+              </div>
+<div class="row">
+  <div class="col-sm-1 col-md-1 col-xs-12">
+         <label class="pull-right" for="fund"><b style="font-size:12px">Fund</b></label>
+   </div>
+   <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2 form-group">
+            <select class="form-control input-sm"  ng-model="FrmDivdMaint.cbofunds" >
+                <option>CboFunds</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select>
+  </div>
+  <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2 form-group">
+           <select class="form-control input-sm">
+               <option>CboFunds</option>
+               <option>2</option>
+               <option>3</option>
+               <option>4</option>
+           </select>
+ </div>
+ <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2 form-group">
+          <select class="form-control input-sm select">
+              <option>CboFunds</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+          </select>
+</div>
+<div class="col-sm-1 col-md-1 col-xs-12">
+       <label class="pull-right" for="fund"><b style="font-size:12px">ExDate</b></label>
+ </div>
+ <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2 form-group">
+      <div class="form-group">
+          <div class='input-group pull-left'>
+              <input type='text' class="form-control input-sm" id='exdate' />
+                <span class="input-group-addon input-sm" id="exdate-icon"><span class="glyphicon glyphicon-calendar"></span>
+                  </span>
+          </div>
+        </div>
+  </div>
+  <div class=" col-sm-2 col-md-2 col-xs-12 col-lg-2 form-group">
+      <button type="button" class="btn btn-info btn-sm pull-right" ng-click="getcbofundsclick()">
+        Selected Fund</button>
+  </div>
+  </div>
+  <div class="row">
+    <div class=" col-sm-12 col-md-12 col-xs-12">
+        <hr/>
+  </div>
+</div>
+<div class="row">
+  <div class=" col-sm-12 col-md-12 col-xs-12">
+       <textarea class="form-control" rows="5">IvwDividendRate</textarea>
+</div>
+</div>
+<div class="row">
+  <div class=" col-sm-12 col-md-12 col-xs-12">
+  <b style="font-size:13px">No Dividend Records Exist For the selected Date</b>
+</div>
+</div><br/>
+<div class="row">
+  <div class=" col-sm-4 col-md-4 col-xs-12">
+  <b style="font-size:13px">ESTIMATED</b><br/><br/>
+  <div class="col-sm-12 col-md-12 col-xs-12">
+  <div class=" col-sm-4 col-md-4 col-xs-12">
+       <label for="Type" style="font-size:13px">Type</label>
+  </div>
+  <div class="col-sm-6 col-md-6 col-xs-12">
+           <select class="form-control input-sm">
+               <option>CboFunds</option>
+               <option>2</option>
+               <option>3</option>
+               <option>4</option>
+           </select>
+ </div>
+ </div><br/><br/>
+   <div class="col-sm-12 col-md-12 col-xs-12">
+ <div class="col-sm-4 col-md-4 col-xs-12">
+        <label for="fund" style="font-size:13px">Ex-Date</label>
+  </div>
+  <div class="col-sm-6 col-md-6 col-xs-12">
+       <div class="form-group">
+           <div class='input-group pull-left'>
+               <input type='text' class="form-control input-sm" id='exdate1' />
+                 <span class="input-group-addon input-sm" id="exdate1-icon"><span class="glyphicon glyphicon-calendar"></span>
+                   </span>
+           </div>
+         </div>
+   </div>
+</div><br/><br/>
+<div class="col-sm-12 col-md-12 col-xs-12">
+<div class="col-sm-4 col-md-4 col-xs-12">
+     <label for="fund" style="font-size:13px">Estimated Rate</label>
+</div>
+<div class="col-sm-6 col-md-6 col-xs-12">
+    <div class="form-group">
+            <input type='text' class="form-control input-sm" />
+        </div>
+</div>
+</div>
+</div>
+<div class=" col-sm-4 col-md-4 col-xs-12">
+<b style="font-size:13px">ACTUAL</b><br/><br/>
+<div class="col-sm-12 col-md-12 col-xs-12">
+<div class="col-sm-4 col-md-4 col-xs-12">
+     <label for="fund" style="font-size:13px">Reinvested-Date</label>
+</div>
+<div class="col-sm-6 col-md-6 col-xs-12">
+    <div class="form-group">
+        <div class='input-group pull-left'>
+            <input type='text' class="form-control input-sm" id='redate' />
+              <span class="input-group-addon input-sm" id="redate-icon"><span class="glyphicon glyphicon-calendar"></span>
+                </span>
+        </div>
+      </div>
+</div>
+</div><br/><br/>
+<div class="col-sm-12 col-md-12 col-xs-12">
+<div class="col-sm-4 col-md-4 col-xs-12">
+     <label for="fund" style="font-size:13px">Actual Rate</label>
+</div>
+<div class="col-sm-6 col-md-6 col-xs-12">
+    <div class="form-group">
+            <input type='text' class="form-control input-sm" />
+        </div>
+</div>
+</div><br/><br/>
+<div class="col-sm-12 col-md-12 col-xs-12">
+<div class="col-sm-4 col-md-4 col-xs-12">
+     <label for="fund" style="font-size:13px">Shares</label>
+</div>
+<div class="col-sm-6 col-md-6 col-xs-12">
+    <div class="form-group">
+            <input type='text' class="form-control input-sm" />
+        </div>
+</div>
+</div><br/><br/>
+<div class="col-sm-12 col-md-12 col-xs-12">
+<div class="col-sm-4 col-md-4 col-xs-12">
+     <label for="fund" style="font-size:13px">Dollars</label>
+</div>
+<div class="col-sm-6 col-md-6 col-xs-12">
+    <div class="form-group">
+            <input type='text' class="form-control input-sm" />
+        </div>
+</div>
+</div>
+</div>
+<div class=" col-sm-4 col-md-4 col-xs-12 pull-right">
+<b style="font-size:13px">NAV'S(Display only)</b><br/><br/>
+<div class="col-sm-12 col-md-12 col-xs-12">
+<div class="col-sm-4 col-md-4 col-xs-12">
+     <label for="fund" style="font-size:13px">Computed</label>
+</div>
+<div class="col-sm-6 col-md-6 col-xs-12">
+    <div class="form-group">
+            <input type='text' class="form-control input-sm" />
+        </div>
+</div>
+</div><br/><br/>
+<div class="col-sm-12 col-md-12 col-xs-12">
+<div class="col-sm-4 col-md-4 col-xs-12">
+     <label for="fund" style="font-size:13px">Unaudited</label>
+</div>
+<div class="col-sm-6 col-md-6 col-xs-12">
+    <div class="form-group">
+            <input type='text' class="form-control input-sm" />
+        </div>
+</div>
+</div><br/><br/>
+<div class="col-sm-12 col-md-12 col-xs-12">
+<div class="col-sm-4 col-md-4 col-xs-12">
+     <label for="fund" style="font-size:13px">Audited</label>
+</div>
+<div class="col-sm-6 col-md-6 col-xs-12">
+    <div class="form-group">
+            <input type='text' class="form-control input-sm" />
+        </div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-4 col-md-4 col-xs-12"></div>
+    <div class="col-sm-4 col-md-4 col-xs-12">
+      <div class="col-sm-12 col-md-12 col-xs-12">
+        <div class="col-sm-4 col-md-4 col-xs-12">
+     <label for="fund" style="font-size:13px">AppliedDate</label>
+</div>
+<div class="col-sm-6 col-md-6 col-xs-12">
+    <div class="form-group">
+        <div class='input-group'>
+            <input type='text' class="form-control input-sm" id='applyate' />
+              <span class="input-group-addon input-sm" id="applyate-icon"><span class="glyphicon glyphicon-calendar"></span>
+                </span>
+        </div>
+      </div>
+      </div>
+</div>
+</div>
+<div class="col-sm-3 col-md-3 col-xs-12">
+  <button type="button" class="btn btn-info btn-sm pull-right">
+    Computed NAVS</button>
+</div>
+</div><br/>
+<div class="row">
+  <div class="col-sm-12 col-md-6 col-xs-12 col-lg-6 form-group">
+  <b>  Reinvested date equals the date NAV used in determining amount of shares to be paid</b>
+  </div>
+  <div class="col-sm-1 col-md-1 col-xs-12 col-lg-1 form-group">
+    <button type="button" class="btn btn-info btn-sm btn-block pull-right">
+      Clear</button>
+  </div>
+  <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2 form-group">
+    <button type="button" class="btn btn-info btn-sm btn-block pull-right">
+      Refresh List</button>
+  </div>
+  <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2 form-group">
+    <button type="button" class="btn btn-info btn-sm btn-block pull-right">
+      Save to DB</button>
+  </div>
+  <div class="col-sm-1 col-md-1 col-xs-12 col-lg-1 form-group">
+    <button type="button" class="btn btn-info btn-sm btn-block pull-right">
+      Close</button>
+  </div>
+</div>
+</div>
+<script src="../js/script.js"></script>

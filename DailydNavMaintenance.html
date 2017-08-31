@@ -1,0 +1,111 @@
+<div ng-include="'html/header.html'" ></div>
+  <div class="row">
+                  <div class=" col-sm-12  ">
+                      <ol class="breadcrumb">
+                          <li class="breadcrumb-item">Home</li>
+                          <li class="breadcrumb-item">Maintenance</li>
+                          <li class="breadcrumb-item active">Daily Nav Maintenance</li>
+                      </ol>
+                  </div>
+              </div>
+<div class="row" ng-init="formload()">
+  <div class="col-sm-1 col-md-1 col-xs-12">
+         <label class="pull-right" for="fund"><b style="font-size:12px">Fund</b></label>
+   </div>
+   <div class="col-sm-5 col-md-5 col-xs-12">
+            <select  id="myselect" class="form-control input-sm" ng-model = "frmDailyNavMaintenance.cbofunds" ng-change="getcmdselfundclick()">
+            </select>
+  </div>
+
+
+<div class="col-sm-2 col-md-2 col-xs-12">
+       <label class="pull-right" for="fund"><b style="font-size:12px">As Of Date</b></label>
+ </div>
+ <div class="col-sm-2 col-md-2 col-xs-12 form-group">
+      <div class="form-group">
+          <div class='input-group pull-left'>
+              <input type='text' class="form-control input-sm" id='asofdate'  ng-model = "frmDailyNavMaintenance.label2"/>
+                <span class="input-group-addon input-sm" id="asofdate-icon"><span class="glyphicon glyphicon-calendar"></span>
+                  </span>
+          </div>
+        </div>
+  </div>
+  <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2 form-group">
+    <button ng-disabled="frmDailyNavMaintenance.cmdselfund" type="button" class="btn btn-info btn-sm" ng-click = "getcmdselfundclick()">
+      Select Fund</button>
+  </div>
+  </div>
+  <div class="row">
+    <div class=" col-sm-12 col-md-12 col-xs-12">
+        <hr/>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-1 col-md-1 col-xs-12">
+   </div>
+   <div class="col-sm-11 col-md-11 col-xs-12">
+  <b style="font-size:16px;">NAV Data</b>
+</div>
+</div><br/>
+  <div class="row">
+    <div class="col-sm-1 col-md-1 col-xs-12">
+     </div>
+     <div class="col-sm-2 col-md-2 col-xs-12">
+            <label class="pull-right" for="Adjustment"  style="font-size:13px">UnAudited Value</label>
+      </div>
+     <div class="col-sm-3 col-md-3 col-xs-12">
+       <div class="form-group">
+             <input type='text' ng-disabled="true" class="form-control input-sm" ng-model = "frmDailyNavMaintenance.lblunaudited" />
+       </div>
+    </div>
+    </div><br/>
+    <div class="row">
+      <div class="col-sm-1 col-md-1 col-xs-12">
+       </div>
+       <div class="col-sm-2 col-md-2 col-xs-12">
+              <label class="pull-right" for="Adjustment"  style="font-size:13px">Estimated Value</label>
+        </div>
+       <div class="col-sm-3 col-md-3 col-xs-12">
+         <div class="form-group">
+               <input type='text' ng-disabled="true" class="form-control input-sm" ng-model = "frmDailyNavMaintenance.lblestimatedval"/>
+         </div>
+      </div>
+      </div><br/>
+    <div class="row">
+      <div class="col-sm-1 col-md-1 col-xs-12">
+       </div>
+       <div class="col-sm-2 col-md-2 col-xs-12">
+              <label class="pull-right"  for="Adjustment"  style="font-size:13px">Manually Entered Value</label>
+        </div>
+       <div class="col-sm-3 col-md-3 col-xs-12">
+         <div class="form-group">
+               <input type='text' ng-disabled="frmDailyNavMaintenance.txtmanualvaldisplay" class="form-control input-sm" ng-model = "frmDailyNavMaintenance.txtmanualval"/>
+         </div>
+      </div>
+      <div class="col-sm-2 col-md-2 col-xs-12">
+             <label class="pull-right" for="Adjustment"  style="font-size:13px">Please Re Enter</label>
+       </div>
+      <div class="col-sm-2 col-md-2 col-xs-12">
+        <div class="form-group">
+              <input type='text' ng-disabled="frmDailyNavMaintenance.txtmanualrepeatdisplay"  class="form-control input-sm" ng-model = "frmDailyNavMaintenance.txtmanualrepeat"/>
+        </div>
+     </div>
+   </div><br/><br/>
+        <div class="row">
+           <div class="col-sm-8 col-md-8 col-xs-12 "></div>
+          <div class="col-sm-1 col-md-1 col-xs-12 col-lg-1 form-group">
+            <button type="button" ng-disabled="frmDailyNavMaintenance.cmdaddmodifydisplay" class="btn btn-info btn-sm pull-right btn-block" ng-click = "getcmdaddmodifyclick()">
+              {{frmDailyNavMaintenance.cmdaddmodify}}</button>
+          </div>
+          <div class="col-sm-1 col-md-1 col-xs-12 col-lg-1 form-group">
+            <button type="button" ng-disabled="frmDailyNavMaintenance.cmddeletedisplay" class="btn btn-info btn-sm pull-right btn-block" ng-click = "getcmddeleteclick()">
+              Delete</button>
+          </div>
+          <div class="col-sm-1 col-md-1 col-xs-12 col-lg-1 form-group">
+            <button type="button" id="closebtn" class="btn btn-info btn-sm pull-right btn-block" ng-click = "redirect"> 
+              Close</button>
+          </div>
+          </div><br/>
+</div>
+<div ng-include="'html/footer.html'"></div>
+<script src="js/script.js"></script>
