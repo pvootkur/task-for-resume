@@ -1,0 +1,66 @@
+
+app.service('FrmIRMAHandler',function(ajaxService){
+var constants = {
+         'PORT':'8080',
+          'URL':'localhost',
+         'PROTOCOL': 'http'
+         };
+
+   this.cbocontactclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cbocontactclick",successFunction,errorFunction);
+}
+   this.cbocontactlostfocus=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cbocontactlostfocus",successFunction,errorFunction);
+}
+   this.cbocontactvalidate=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cbocontactvalidate",successFunction,errorFunction);
+}
+   this.cbohotsheetclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cbohotsheetclick",successFunction,errorFunction);
+}
+   this.cbohotsheetvalidate=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cbohotsheetvalidate",successFunction,errorFunction);
+}
+   this.cboprinterclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cboprinterclick",successFunction,errorFunction);
+}
+   this.cboprinterdropdown=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cboprinterdropdown",successFunction,errorFunction);
+}
+   this.cboprintervalidate=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cboprintervalidate",successFunction,errorFunction);
+}
+   this.cboruntypevalidate=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cboruntypevalidate",successFunction,errorFunction);
+}
+   this.cmdcloseclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cmdcloseclick",successFunction,errorFunction);
+}
+   this.cmdreportclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cmdreportclick",successFunction,errorFunction);
+}
+   this.getcontractnumbers=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//getcontractnumbers",successFunction,errorFunction);
+}
+   this.irmareport=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//irmareport",successFunction,errorFunction);
+}
+   this.parsecontractnumbers=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//parsecontractnumbers",successFunction,errorFunction);
+}
+   this.formatform=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//formatform",successFunction,errorFunction);
+}
+   this.formload=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//formload",successFunction,errorFunction);
+}
+   this.populateform=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//populateform",successFunction,errorFunction);
+}
+   this.reporterror=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//reporterror",successFunction,errorFunction);
+}
+   this.formunload=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//formunload",successFunction,errorFunction);
+}
+});

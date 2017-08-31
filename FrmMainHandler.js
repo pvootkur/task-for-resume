@@ -1,0 +1,99 @@
+
+app.service('FrmMainHandler',function(ajaxService){
+var constants = {
+         'PORT':'8080',
+          'URL':'localhost',
+         'PROTOCOL': 'http'
+         };
+
+   this.mdiformload=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mdiformload",successFunction,errorFunction);
+}
+   this.mdiformunload=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mdiformunload",successFunction,errorFunction);
+}
+   this.mnuadminprodfundclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mnuadminprodfundclick",successFunction,errorFunction);
+}
+   this.mnuadminprodfundsclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mnuadminprodfundsclick",successFunction,errorFunction);
+}
+   this.mnuauditnavmaintclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mnuauditnavmaintclick",successFunction,errorFunction);
+}
+   this.mnufilecloseclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mnufilecloseclick",successFunction,errorFunction);
+}
+   this.mnuhelpaboutclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mnuhelpaboutclick",successFunction,errorFunction);
+}
+   this.mnumaintadjfactorclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mnumaintadjfactorclick",successFunction,errorFunction);
+}
+   this.mnumaintdividendclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mnumaintdividendclick",successFunction,errorFunction);
+}
+   this.mnumaintdivreturnrateclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mnumaintdivreturnrateclick",successFunction,errorFunction);
+}
+   this.mnumaintglacctclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mnumaintglacctclick",successFunction,errorFunction);
+}
+   this.mnumaintglperiodclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mnumaintglperiodclick",successFunction,errorFunction);
+}
+   this.mnumaintnavclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mnumaintnavclick",successFunction,errorFunction);
+}
+   this.mnumaintprodfundclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mnumaintprodfundclick",successFunction,errorFunction);
+}
+   this.mnumaintprodseriesratesclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mnumaintprodseriesratesclick",successFunction,errorFunction);
+}
+   this.mnumaintprodseriesratespopupclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mnumaintprodseriesratespopupclick",successFunction,errorFunction);
+}
+   this.mnumaintretroclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mnumaintretroclick",successFunction,errorFunction);
+}
+   this.mnunsfgfundsclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mnunsfgfundsclick",successFunction,errorFunction);
+}
+   this.mnuqryadjfactorhistclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mnuqryadjfactorhistclick",successFunction,errorFunction);
+}
+   this.mnuqrybatchclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mnuqrybatchclick",successFunction,errorFunction);
+}
+   this.mnuqrynavdivadjfactorhistclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mnuqrynavdivadjfactorhistclick",successFunction,errorFunction);
+}
+   this.mnuqryprocessstatusclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mnuqryprocessstatusclick",successFunction,errorFunction);
+}
+   this.mnurelatedfundsclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mnurelatedfundsclick",successFunction,errorFunction);
+}
+   this.mnurunclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mnurunclick",successFunction,errorFunction);
+}
+   this.mnuuventryclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mnuuventryclick",successFunction,errorFunction);
+}
+   this.mnuwindowtileverticalclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mnuwindowtileverticalclick",successFunction,errorFunction);
+}
+   this.mnuwindowtilehorizontalclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mnuwindowtilehorizontalclick",successFunction,errorFunction);
+}
+   this.mnuwindowcascadeclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mnuwindowcascadeclick",successFunction,errorFunction);
+}
+   this.mnufileexitclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mnufileexitclick",successFunction,errorFunction);
+}
+   this.mnufileprintclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//mnufileprintclick",successFunction,errorFunction);
+}
+});

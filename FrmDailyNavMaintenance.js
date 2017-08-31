@@ -1,0 +1,29 @@
+this.FrmDailyNavMaintenance = function () {
+
+    mmanenteredval
+    strsql
+    rs
+    i
+    irecaffected
+    sinsupd
+    manval
+    manvalrepeat
+    answer
+    txtasofdate
+    txtmanualval
+    cmddelete
+    cmdclose
+    cmdaddmodify
+    txtmanualrepeat
+    cmdselfund
+    cbofunds
+    label2
+    lblestimatedval
+    lblmanval
+    lblmanrepeat
+    label5
+    lblunaudited
+    label4
+    label3
+    label1
+};

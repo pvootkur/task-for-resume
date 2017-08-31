@@ -1,0 +1,101 @@
+
+app.service('FrmDivdMaintHandler',function(ajaxService, appConfig){
+var URL =appConfig.PROTOCOL+"://"+appConfig.URL+":"+appConfig.PORT+"/"+appConfig.APPNAME+"/FrmDivdMaintController";
+
+   this.cboesttypecdclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cboesttypecdclick",successFunction,errorFunction);
+}
+   this.cbofundsclick=function(itemData,successFunction,errorFunction){
+	   ajaxService.AjaxPost(itemData, URL+"/cbofundsclick",successFunction,errorFunction);
+}
+   this.cmdclearclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cmdclearclick",successFunction,errorFunction);
+}
+   this.cmdcloseclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cmdcloseclick",successFunction,errorFunction);
+}
+   this.cmdcomputenavclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cmdcomputenavclick",successFunction,errorFunction);
+}
+   this.cmdrefreshclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cmdrefreshclick",successFunction,errorFunction);
+}
+   this.cmdsaveclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cmdsaveclick",successFunction,errorFunction);
+}
+   this.cmdselectfundclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//cmdselectfundclick",successFunction,errorFunction);
+}
+   this.dtpactreinvesteddatechange=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//dtpactreinvesteddatechange",successFunction,errorFunction);
+}
+   this.dtpexdatechange=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//dtpexdatechange",successFunction,errorFunction);
+}
+   this.formload=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//formload",successFunction,errorFunction);
+}
+   this.formunload=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//formunload",successFunction,errorFunction);
+}
+   this.lvwdividenditemclick=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//lvwdividenditemclick",successFunction,errorFunction);
+}
+   this.txtactdollarschange=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//txtactdollarschange",successFunction,errorFunction);
+}
+   this.txtactdollarsgotfocus=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//txtactdollarsgotfocus",successFunction,errorFunction);
+}
+   this.txtactdollarskeypress=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//txtactdollarskeypress",successFunction,errorFunction);
+}
+   this.txtactdollarslostfocus=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//txtactdollarslostfocus",successFunction,errorFunction);
+}
+   this.txtactrategotfocus=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//txtactrategotfocus",successFunction,errorFunction);
+}
+   this.txtactratekeypress=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//txtactratekeypress",successFunction,errorFunction);
+}
+   this.txtactratelostfocus=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//txtactratelostfocus",successFunction,errorFunction);
+}
+   this.txtactshareschange=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//txtactshareschange",successFunction,errorFunction);
+}
+   this.txtactsharesgotfocus=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//txtactsharesgotfocus",successFunction,errorFunction);
+}
+   this.txtactshareskeypress=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//txtactshareskeypress",successFunction,errorFunction);
+}
+   this.txtactshareslostfocus=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//txtactshareslostfocus",successFunction,errorFunction);
+}
+   this.txtestratechange=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//txtestratechange",successFunction,errorFunction);
+}
+   this.txtestrategotfocus=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//txtestrategotfocus",successFunction,errorFunction);
+}
+   this.txtestratekeypress=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//txtestratekeypress",successFunction,errorFunction);
+}
+   this.txtestratelostfocus=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//txtestratelostfocus",successFunction,errorFunction);
+}
+   this.txtnavauditedchange=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//txtnavauditedchange",successFunction,errorFunction);
+}
+   this.txtnavauditedgotfocus=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//txtnavauditedgotfocus",successFunction,errorFunction);
+}
+   this.txtnavauditedkeypress=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//txtnavauditedkeypress",successFunction,errorFunction);
+}
+   this.txtnavauditedlostfocus=function(itemData,successFunction,errorFunction){
+       ajaxService.AjaxGetWithData("constants.'PROTOCOL'//constants.'URL':constants.'PORT'//txtnavauditedlostfocus",successFunction,errorFunction);
+}
+});
